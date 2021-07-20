@@ -47,7 +47,7 @@ We provide complete training codes for FD-MAPPO (Cubic Map).<br>
 You could adapt it to your own needs.
 
 1. If you don't have NVIDIA RTX 3090, you should comment these two lines in file<br>
-<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/util.py</font>
+[peo_uav_sc/peo_uav_sc_code/util.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/util.py)
 	```
 	[24]  torch.backends.cuda.matmul.allow_tf32 = False
 	[25]  torch.backends.cudnn.allow_tf32 = False
