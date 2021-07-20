@@ -52,15 +52,15 @@ You could adapt it to your own needs.
 	[24]  torch.backends.cuda.matmul.allow_tf32 = False
 	[25]  torch.backends.cudnn.allow_tf32 = False
 	```
-2. You can modify the config files for environments 
+2. You can modify the config files 
 [human_drone_SC/code/environment/KAIST/conf.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/environment/KAIST/conf.py) and
-[human_drone_SC/code/environment/NCSU/conf.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/environment/NCSU/conf.py).<br>
+[human_drone_SC/code/environment/NCSU/conf.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/environment/NCSU/conf.py) for environments.<br>
 For example, you can control the number of drones in the environment by modifying this line
 	```
 	[43]  'uav_num': 6,
 	```
-3. You can modify the config file for method
-[human_drone_SC/code/method/fd_mappo_cubicmap/conf.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/method/fd_mappo_cubicmap/conf.py).<br>
+3. You can modify the config file 
+[human_drone_SC/code/method/fd_mappo_cubicmap/conf.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/method/fd_mappo_cubicmap/conf.py) for method.<br>
 For example, you can control the hyperparameters studied in paper by modifying these two lines
 	```
 	[34]  'M_size': [16, 16, 16],  # Z, X, Y
