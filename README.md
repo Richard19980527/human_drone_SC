@@ -73,7 +73,7 @@ For example, you can control the hyperparameters studied in paper by modifying t
 	```
 	The log files will be stored in [peo_uav_sc_log](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_log).
 ## :checkered_flag: Testing
-1. Before testing, you should modify the file [peo_uav_sc/peo_uav_sc_code/env_mathod_set.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/env_mathod_set.py) to ensure the datetime of the version you want to test is right.
+1. Before testing, you should modify the file [peo_uav_sc/peo_uav_sc_code/env_method_set.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/env_method_set.py) to ensure the datetime of the version you want to test is right.
 	```
 	[2]  'KAIST/fd_mappo_cubicmap': '2021-05-27/23-48-01',
 	[3]  'NCSU/fd_mappo_cubicmap': '2021-05-20/16-56-41',
