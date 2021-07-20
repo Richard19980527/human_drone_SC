@@ -53,7 +53,7 @@ You could adapt it to your own needs.
 	[25]  torch.backends.cudnn.allow_tf32 = False
 	```
 2. You can modify the config files for environments<br>
-[peo_uav_sc/peo_uav_sc_code/environment/KAIST/conf.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/environment/KAIST/conf.py)
+[peo_uav_sc/peo_uav_sc_code/environment/KAIST/conf.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/environment/KAIST/conf.py)<br>
 [peo_uav_sc/peo_uav_sc_code/environment/NCSU/conf.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/environment/NCSU/conf.py).<br>
 For example, you can control the number of drones in the environment by modifying this line
 	```
