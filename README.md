@@ -36,7 +36,7 @@ positional arguments:
 optional arguments:
   -h, --help   show this help message and exit
 ```
-Test the trained models provided in [peo_uav_sc_log](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_log)
+Test the trained models provided in [peo_uav_sc_log](https://github.com/Richard19980527/peo_uav_sc/peo_uav_sc_log)
 ```
 python main.py KAIST fd_mappo_cubicmap test
 python main.py NCSU fd_mappo_cubicmap test
