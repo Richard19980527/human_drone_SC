@@ -36,7 +36,7 @@ positional arguments:
 optional arguments:
   -h, --help   show this help message and exit
 ```
-Test the trained models provided in [peo_uav_sc_log](https://github.com/Richard19980527/peo_uav_sc/peo_uav_sc_log)
+Test the trained models provided in [peo_uav_sc_log](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_log).
 ```
 python main.py KAIST fd_mappo_cubicmap test
 python main.py NCSU fd_mappo_cubicmap test
@@ -53,14 +53,14 @@ You could adapt it to your own needs.
 	[25]  torch.backends.cudnn.allow_tf32 = False
 	```
 2. You can modify the config files for environments<br>
-<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/environment/KAIST/conf.py</font><br>
-<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/environment/NCSU/conf.py</font>.<br>
+[peo_uav_sc/peo_uav_sc_code/environment/KAIST/conf.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/environment/KAIST/conf.py)
+[peo_uav_sc/peo_uav_sc_code/environment/NCSU/conf.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/environment/NCSU/conf.py).<br>
 For example, you can control the number of drones in the environment by modifying this line
 	```
 	[43]  'uav_num': 6,
 	```
 3. You can modify the config file for method<br>
-<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/method/fd_mappo_cubicmap/conf.py</font>.<br>
+[peo_uav_sc/peo_uav_sc_code/method/fd_mappo_cubicmap/conf.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/method/fd_mappo_cubicmap/conf.py).<br>
 For example, you can control the hyperparameters studied in paper by modifying these two lines
 	```
 	[34]  'M_size': [16, 16, 16],  # Z, X, Y
@@ -71,9 +71,9 @@ For example, you can control the hyperparameters studied in paper by modifying t
 	python main.py KAIST fd_mappo_cubicmap train
 	python main.py NCSU fd_mappo_cubicmap train
 	```
-	The log files will be stored in <font color=#0099ff>peo_uav_sc_log</font>.
+	The log files will be stored in [peo_uav_sc_log](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_log).
 ## :checkered_flag: Testing
-1. Before testing, you should modify the file <font color=#0099ff>peo_uav_sc/peo_uav_sc_code/env_mathod_set.py</font> to ensure the datetime of the version you want to test is right.
+1. Before testing, you should modify the file [peo_uav_sc/peo_uav_sc_code/env_mathod_set.py](https://github.com/Richard19980527/peo_uav_sc/tree/main/peo_uav_sc_code/env_mathod_set.py) to ensure the datetime of the version you want to test is right.
 	```
 	[2]  'KAIST/fd_mappo_cubicmap': '2021-05-27/23-48-01',
 	[3]  'NCSU/fd_mappo_cubicmap': '2021-05-20/16-56-41',
