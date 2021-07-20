@@ -52,8 +52,8 @@ You could adapt it to your own needs.
 	[24]  torch.backends.cuda.matmul.allow_tf32 = False
 	[25]  torch.backends.cudnn.allow_tf32 = False
 	```
-2. You can modify the config files for environments<br>
-[human_drone_SC/code/environment/KAIST/conf.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/environment/KAIST/conf.py)<br>
+2. You can modify the config files for environments 
+[human_drone_SC/code/environment/KAIST/conf.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/environment/KAIST/conf.py) and
 [human_drone_SC/code/environment/NCSU/conf.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/environment/NCSU/conf.py).<br>
 For example, you can control the number of drones in the environment by modifying this line
 	```
