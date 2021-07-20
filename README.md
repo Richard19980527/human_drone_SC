@@ -46,8 +46,8 @@ python main.py NCSU fd_mappo_cubicmap test
 We provide complete training codes for FD-MAPPO (Cubic Map).<br>
 You could adapt it to your own needs.
 
-1. If you don't have NVIDIA RTX 3090, you should comment these two lines in file<br>
-[human_drone_SC/code/util.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/util.py)
+1. If you don't have NVIDIA RTX 3090, you should comment these two lines in file
+[human_drone_SC/code/util.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/util.py).
 	```
 	[24]  torch.backends.cuda.matmul.allow_tf32 = False
 	[25]  torch.backends.cudnn.allow_tf32 = False
@@ -59,7 +59,7 @@ For example, you can control the number of drones in the environment by modifyin
 	```
 	[43]  'uav_num': 6,
 	```
-3. You can modify the config file for method<br>
+3. You can modify the config file for method
 [human_drone_SC/code/method/fd_mappo_cubicmap/conf.py](https://github.com/Richard19980527/human_drone_SC/tree/main/code/method/fd_mappo_cubicmap/conf.py).<br>
 For example, you can control the hyperparameters studied in paper by modifying these two lines
 	```
