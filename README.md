@@ -43,24 +43,24 @@ python main.py NCSU fd_mappo_cubicmap test
 ```
 ## :computer: Training
 
-We provide complete training codes for FD-MAPPO (Cubic Map). <br>
+We provide complete training codes for FD-MAPPO (Cubic Map).<br>
 You could adapt it to your own needs.
 
-1. If you don't have NVIDIA RTX 3090, you should comment these two lines in file 
+1. If you don't have NVIDIA RTX 3090, you should comment these two lines in file<br>
 <font color=#0099ff>peo_uav_sc/peo_uav_sc_code/util.py</font>
 	```
 	[24]  torch.backends.cuda.matmul.allow_tf32 = False
 	[25]  torch.backends.cudnn.allow_tf32 = False
 	```
-2. You can modify the config files for environments 
-<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/environment/KAIST/conf.py</font> 
-<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/environment/NCSU/conf.py</font> 
+2. You can modify the config files for environments<br>
+<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/environment/KAIST/conf.py</font><br>
+<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/environment/NCSU/conf.py</font>.<br>
 For example, you can control the number of drones in the environment by modifying this line
 	```
 	[43]  'uav_num': 6,
 	```
-3. You can modify the config file for method 
-<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/method/fd_mappo_cubicmap/conf.py</font>
+3. You can modify the config file for method<br>
+<font color=#0099ff>peo_uav_sc/peo_uav_sc_code/method/fd_mappo_cubicmap/conf.py</font>.<br>
 For example, you can control the hyperparameters studied in paper by modifying these two lines
 	```
 	[34]  'M_size': [16, 16, 16],  # Z, X, Y
@@ -86,6 +86,7 @@ For example, you can control the hyperparameters studied in paper by modifying t
 ## :scroll: Acknowledgement
 
 This work is supported by the National Natural Science Foundation of China (No. 62022017). 
+<br>
 Corresponding author: Chi Harold Liu.
 
 ## :e-mail: Contact
