@@ -10,7 +10,7 @@ FD-MAPPO (Cubic Map) is a novel deep reinforcement learning (DRL) framework for 
 ### Installation
 1. Clone repo
     ```bash
-    git clone https://github.com/
+    git clone https://github.com/Richard19980527/peo_uav_sc.git
     cd peo_uav_sc
     ```
 2. Install dependent packages
