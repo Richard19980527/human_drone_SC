@@ -4,9 +4,9 @@ Distributed Multi-Agent Deep Reinforcement Learning" submitted to ICDE 2022.
 ## :page_facing_up: Description
 FD-MAPPO (Cubic Map) is a novel deep reinforcement learning (DRL) framework for human-drone collaborative SC tasks. It consists of a fully decentralized MADRL framework, called FD-MAPPO, as a novel multi-actor-multi-learner architecture without any centralized control module based on PPO. It also contains a novel memory structure, called Cubic Map, to enable novel sparse cubic writing and contextual attentive reading operations.
 ## :wrench: Dependencies
-- Python >= 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
-- [PyTorch == 1.9](https://pytorch.org/)
-- NVIDIA GPU (RTX 3090) + [CUDA 11](https://developer.nvidia.com/cuda-downloads)
+- Python == 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+- [PyTorch == 1.8.1](https://pytorch.org/)
+- NVIDIA GPU (RTX 3090) + [CUDA 11.1](https://developer.nvidia.com/cuda-downloads)
 ### Installation
 1. Clone repo
     ```bash
